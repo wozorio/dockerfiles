@@ -6,9 +6,9 @@ LABEL author="Wellington Ozorio"
 LABEL version="1.0.0"
 
 # Update the repository sources list
-RUN apt update \
-    && apt install -y apache2 \
-    && apt clean
+RUN apt update && \
+    apt install -y apache2 && \
+    apt clean
 
 # Copy custom index.html file
 COPY index.html /var/www/html/
