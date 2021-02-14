@@ -1,5 +1,5 @@
 # Base OS image to be used
-FROM ubuntu:xenial
+FROM debian:stable-slim
 
 # File Author / Maintainer
 LABEL author="Wellington Ozorio"
