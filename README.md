@@ -1,2 +1,2 @@
-#dockerfile
+# dockerfiles
 A collection of Dockerfile examples.
